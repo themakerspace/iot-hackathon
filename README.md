@@ -12,6 +12,7 @@ The ESP8266 is a popular, inexpensive WiFi/microcontroller system-on-chip (SoC).
 
 ### Gotcha's
 1. When specifying the pin numbers use the GPIO values in the diagram below, and not the values on the board.
+2. The NodeMCU runs at 3.3V which means if you need to drive 5V components you will need step-up converters or transistor/logic-level setups.
 
 ## Setup Guide
 ### Prerequisites
@@ -27,8 +28,8 @@ Install the NodeMCU Windows or Mac Drivers provided on the memory stick or from 
 
 ### Install Software
 1. Install the Arduino IDE
-1.1 Download it from here: https://www.arduino.cc/en/Main/Software
-1.2. Or grab it from the memory sticks provided, or from the Arduino website if you are doing this beforehand.
+  *  Download it from here: https://www.arduino.cc/en/Main/Software
+  * Or grab it from the memory sticks provided, or from the Arduino website if you are doing this beforehand.
 2. Start Arduino and open Preferences window.
 3. Enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
 4. Open Boards Manager from Tools > Board menu and install esp8266 platform (and don't forget to select your ESP8266 board from Tools > Board menu after installation).
