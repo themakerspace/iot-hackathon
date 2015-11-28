@@ -41,9 +41,8 @@ Install the NodeMCU Windows or Mac Drivers provided on the memory stick or from 
  * Upload Speed: 230400 (or 115200 if that doesn't work)
  * Port: cu.wchusbserial1410
 2. Go to File -> Examples -> esp8266 -> BlinkWithoutDelay
-3. Unplug the device
-4. Hold down the Flash button and and press the Reset button to allow the board to be flashed
-5. Click the Upload button and wait for the upload to complete
+3. Hold down the Flash button and and press the Reset button to allow the board to be flashed
+4. Click the Upload button and wait for the upload to complete
 
 ### Verify Using a Wifi Sketch
 Once you can successfully upload a sketch to the NodeMCU, you are ready to test the Wifi.
@@ -52,9 +51,8 @@ Once you can successfully upload a sketch to the NodeMCU, you are ready to test 
 2. Edit the 'ssid' and 'password' variables using the following:
   * SSID: GrayHomeLTE
   * Password:      (ask Garth or Steve)
-3. Unplug the device
-4. Hold down the Flash button and and press the Reset button to allow the board to be flashed
-5. Click the Upload button and wait for the upload to complete
+3. Hold down the Flash button and and press the Reset button to allow the board to be flashed
+4. Click the Upload button and wait for the upload to complete
 
 ### Pinout Diagram
 ![](http://www.cnx-software.com/wp-content/uploads/2015/10/NodeMCU_v0.9_Pinout.png)
